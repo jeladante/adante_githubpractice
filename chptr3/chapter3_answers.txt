@@ -1,1 +1,21 @@
-chapter 3 answers
+$ git branch testing
+$ git log --oneline --decorate
+$ git checkout testing
+$ vim test.rb
+$ git checkout master
+$ vim index.html
+$ git branch
+$ git branch -v
+$ git branch --merged
+$ git branch --no-merged
+$ git checkout experiment
+$ git rebase master
+$ git checkout master
+$ git merge experiment
+$ git rebase --onto master server client
+$ git checkout master
+$ git merge client
+
+
+$ git branch -d client
+$ git branch -d server
