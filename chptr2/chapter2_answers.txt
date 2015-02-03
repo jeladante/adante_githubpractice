@@ -2,3 +2,23 @@ git init
 $ git add *.c
 $ git add LICENSE
 $ git commit -m 'initial project version'
+ubuntu01@ubuntubootcampvm:~/adante_githubpractice/chptr2$ git commit -m "Updated answers"
+[master e273cf1] Updated answers
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+$ git checkout -- 
+$ git push origin master
+Username for 'https://github.com': jeladante
+Password for 'https://jeladante@github.com': 
+Counting objects: 7, done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 413 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To https://github.com/jeladante/adante_githubpractice.git
+   63a4c90..e273cf1  master -> master
+Branch master set up to track remote branch master from origin.
+$ git remote rename
+$ git tag
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
